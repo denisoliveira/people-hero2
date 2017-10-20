@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9271ED0F1F99631600BA0E9F /* HomeMapDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271ED0E1F99631600BA0E9F /* HomeMapDataProvider.swift */; };
+		9271ED111F9963AD00BA0E9F /* GenericDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271ED101F9963AD00BA0E9F /* GenericDataProvider.swift */; };
+		9271ED141F99656B00BA0E9F /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271ED131F99656B00BA0E9F /* API.swift */; };
+		9271ED181F99693700BA0E9F /* MendingoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9271ED171F99693700BA0E9F /* MendingoViewModel.swift */; };
 		92B281AB1F99598100F97274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B281AA1F99598100F97274 /* AppDelegate.swift */; };
-		92B281AD1F99598100F97274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B281AC1F99598100F97274 /* ViewController.swift */; };
+		92B281AD1F99598100F97274 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B281AC1F99598100F97274 /* HomeVC.swift */; };
 		92B281B01F99598100F97274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B281AE1F99598100F97274 /* Main.storyboard */; };
 		92B281B21F99598100F97274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92B281B11F99598100F97274 /* Assets.xcassets */; };
 		92B281B51F99598100F97274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B281B31F99598100F97274 /* LaunchScreen.storyboard */; };
+		BE614E76EEF2D16E6DA0B9A3 /* Pods_people_hero2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21C499A1E8B9611729F570A3 /* Pods_people_hero2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F4718BD77D935BF8D239307 /* Pods-people-hero2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-people-hero2.release.xcconfig"; path = "Pods/Target Support Files/Pods-people-hero2/Pods-people-hero2.release.xcconfig"; sourceTree = "<group>"; };
+		21C499A1E8B9611729F570A3 /* Pods_people_hero2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_people_hero2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9271ED0E1F99631600BA0E9F /* HomeMapDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMapDataProvider.swift; sourceTree = "<group>"; };
+		9271ED101F9963AD00BA0E9F /* GenericDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDataProvider.swift; sourceTree = "<group>"; };
+		9271ED131F99656B00BA0E9F /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		9271ED171F99693700BA0E9F /* MendingoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MendingoViewModel.swift; sourceTree = "<group>"; };
 		92B281A71F99598100F97274 /* people-hero2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "people-hero2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B281AA1F99598100F97274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		92B281AC1F99598100F97274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92B281AC1F99598100F97274 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		92B281AF1F99598100F97274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92B281B11F99598100F97274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92B281B41F99598100F97274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92B281B61F99598100F97274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC815518463DDB5EB9BF4637 /* Pods-people-hero2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-people-hero2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-people-hero2/Pods-people-hero2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,78 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE614E76EEF2D16E6DA0B9A3 /* Pods_people_hero2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		51B552A8B10BCA5E3B13FC2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21C499A1E8B9611729F570A3 /* Pods_people_hero2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		756E5A277BD84F5F6CD49FF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC815518463DDB5EB9BF4637 /* Pods-people-hero2.debug.xcconfig */,
+				0F4718BD77D935BF8D239307 /* Pods-people-hero2.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9271ED0D1F9962CA00BA0E9F /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				9271ED0E1F99631600BA0E9F /* HomeMapDataProvider.swift */,
+				9271ED101F9963AD00BA0E9F /* GenericDataProvider.swift */,
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		9271ED121F99652700BA0E9F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9271ED131F99656B00BA0E9F /* API.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9271ED191F9970EA00BA0E9F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9271ED171F99693700BA0E9F /* MendingoViewModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9271ED1A1F9970F700BA0E9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92B281AC1F99598100F97274 /* HomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9271ED1B1F99710500BA0E9F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				92B281AA1F99598100F97274 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		92B2819E1F99598100F97274 = {
 			isa = PBXGroup;
 			children = (
 				92B281A91F99598100F97274 /* people-hero2 */,
 				92B281A81F99598100F97274 /* Products */,
+				756E5A277BD84F5F6CD49FF9 /* Pods */,
+				51B552A8B10BCA5E3B13FC2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,8 +127,11 @@
 		92B281A91F99598100F97274 /* people-hero2 */ = {
 			isa = PBXGroup;
 			children = (
-				92B281AA1F99598100F97274 /* AppDelegate.swift */,
-				92B281AC1F99598100F97274 /* ViewController.swift */,
+				9271ED1B1F99710500BA0E9F /* Application */,
+				9271ED1A1F9970F700BA0E9F /* Controller */,
+				9271ED191F9970EA00BA0E9F /* Model */,
+				9271ED121F99652700BA0E9F /* Network */,
+				9271ED0D1F9962CA00BA0E9F /* DataProvider */,
 				92B281AE1F99598100F97274 /* Main.storyboard */,
 				92B281B11F99598100F97274 /* Assets.xcassets */,
 				92B281B31F99598100F97274 /* LaunchScreen.storyboard */,
@@ -71,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 92B281B91F99598100F97274 /* Build configuration list for PBXNativeTarget "people-hero2" */;
 			buildPhases = (
+				603D45A2C812252C749D7A4E /* [CP] Check Pods Manifest.lock */,
 				92B281A31F99598100F97274 /* Sources */,
 				92B281A41F99598100F97274 /* Frameworks */,
 				92B281A51F99598100F97274 /* Resources */,
+				9B0B61F640C100E31E6B658E /* [CP] Embed Pods Frameworks */,
+				78A968507590F0606D48F862 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,13 +210,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		603D45A2C812252C749D7A4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		78A968507590F0606D48F862 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-people-hero2/Pods-people-hero2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B0B61F640C100E31E6B658E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-people-hero2/Pods-people-hero2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		92B281A31F99598100F97274 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92B281AD1F99598100F97274 /* ViewController.swift in Sources */,
+				9271ED0F1F99631600BA0E9F /* HomeMapDataProvider.swift in Sources */,
+				92B281AD1F99598100F97274 /* HomeVC.swift in Sources */,
+				9271ED111F9963AD00BA0E9F /* GenericDataProvider.swift in Sources */,
+				9271ED181F99693700BA0E9F /* MendingoViewModel.swift in Sources */,
 				92B281AB1F99598100F97274 /* AppDelegate.swift in Sources */,
+				9271ED141F99656B00BA0E9F /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +403,7 @@
 		};
 		92B281BA1F99598100F97274 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC815518463DDB5EB9BF4637 /* Pods-people-hero2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +419,7 @@
 		};
 		92B281BB1F99598100F97274 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4718BD77D935BF8D239307 /* Pods-people-hero2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
